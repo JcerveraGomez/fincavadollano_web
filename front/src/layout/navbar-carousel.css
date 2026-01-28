@@ -1,0 +1,66 @@
+/* Estilos personalizados para Swiper en el dropdown */
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+  opacity: 0.7 !important;
+  width: 6px !important;
+  height: 6px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6 !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination {
+  bottom: 12px !important;
+  left: 12px !important;
+  right: 12px !important;
+  text-align: center;
+}
+
+/* Ajustes para el carrusel en el navbar - layout de dos columnas */
+.navbar-carousel .swiper {
+  border-radius: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.navbar-carousel .swiper-slide {
+  height: 100%;
+}
+
+.navbar-carousel .swiper-slide img {
+  transition: transform 0.3s ease;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar-carousel .swiper-slide:hover img {
+  transform: scale(1.02);
+}
+
+/* Separador visual entre columnas */
+.navbar-carousel::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+/* Efecto de overlay mejorado */
+.navbar-carousel .swiper-slide::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(37, 99, 235, 0.2) 100%);
+  pointer-events: none;
+}

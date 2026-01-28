@@ -1,0 +1,237 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "slug": "aove-temprano",
+      "price": 16.00,
+      "packPrice": 192.00,
+      "stock": 50,
+      "is_active": true,
+      "type": "bottle",
+      "images": [
+        {
+          "id": "img-1-1",
+          "url": "/images/FOTOBOTELLA1 verso.webp",
+          "alt": "AOVE Temprano - Botella frontal",
+          "is_primary": true,
+          "order": 1
+        },
+        {
+          "id": "img-1-2",
+          "url": "/images/FOTOBOTELLA1 reverso.webp",
+          "alt": "AOVE Temprano - Botella reverso",
+          "is_primary": false,
+          "order": 2
+        }
+      ],
+      "name": "AOVE TEMPRANO",
+      "description": {
+        "es": "Aove Temprano, fruto de la recolección de las aceitunas durante el mes de octubre obtenido mediante extracción en frío. Resulta un aceite con un perfil organoléptico exquisito: olor, color y sabor de excelentes propiedades saludables. Cuenta con un alto contenido en ácido oleico y antioxidantes naturales (vitamina E, polifenoles, etc.)",
+        "en": "Early Harvest AOVE, fruit of the olive harvest during the month of October, obtained through cold extraction. The result is an oil with an exquisite organoleptic profile: smell, color, and taste with excellent healthy properties. It has a high content of oleic acid and natural antioxidants (vitamin E, polyphenols, etc.)"
+      },
+      "short_description": {
+        "es": "Cosecha temprana de octubre",
+        "en": "Early October harvest"
+      },
+      "specifications": {
+        "es": {
+          "size": "500ml",
+          "origin": "Jaén, España",
+          "variety": "Picual",
+          "harvest": "Octubre - Cosecha temprana",
+          "extraction": "En frío",
+          "color": "Verde intenso",
+          "minimum_order": "6 botellas",
+          "box_size": "12 botellas"
+        },
+        "en": {
+          "size": "500ml",
+          "origin": "Jaén, Spain",
+          "variety": "Picual",
+          "harvest": "October - Early harvest",
+          "extraction": "Cold extraction",
+          "color": "Intense green",
+          "minimum_order": "6 bottles",
+          "box_size": "12 bottles"
+        }
+      },
+      "features": {
+        "es": [
+          "Recolección en estado de envero óptimo",
+          "Color verde intenso",
+          "Aromas frescos e intensos",
+          "Alto contenido en antioxidantes naturales",
+          "Extracción mediante procedimientos mecánicos",
+          "Venta únicamente en pack de 12 botellas"
+        ],
+        "en": [
+          "Harvest at optimal ripeness",
+          "Intense green color",
+          "Fresh and intense aromas",
+          "High content of natural antioxidants",
+          "Extraction by mechanical procedures",
+          "Sold only in packs of 12 bottles"
+        ]
+      },
+      "maridaje": {
+        "es": "Zumo de calidad superior, recomendado para uso doméstico, hostelería y restaurantes. Sugerimos disfrutarlo en crudo.",
+        "en": "Superior quality juice, recommended for domestic use, hospitality, and restaurants. We suggest enjoying it raw."
+      },
+      "created_at": "2024-01-15T10:00:00Z",
+      "updated_at": "2024-12-03T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "slug": "aove-temprano-sin-filtrar",
+      "price": 16.00,
+      "packPrice": 216.00,
+      "stock": 9,
+      "is_active": true,
+      "type": "bottle",
+      "images": [
+        {
+          "id": "img-2-1",
+          "url": "/images/FOTOBOTELLA2verso.webp",
+          "alt": "AOVE Temprano Sin Filtrar - Botella frontal",
+          "is_primary": true,
+          "order": 1
+        },
+        {
+          "id": "img-2-2",
+          "url": "/images/FOTOBOTELLA2reverso.webp",
+          "alt": "AOVE Temprano Sin Filtrar - Botella reverso",
+          "is_primary": false,
+          "order": 2
+        }
+      ],
+      "name": "AOVE TEMPRANO SIN FILTRAR",
+      "description": {
+        "es": "Aove Temprano Sin Filtrar, aceite de oliva virgen extra de cosecha temprana sin filtrar. Conserva todas sus propiedades naturales y sedimentos que le aportan un carácter único y auténtico. Un aceite excepcional para los paladares más exigentes. . Cuenta con un alto contenido en ácido oleico y antioxidantes naturales (vitamina E, polifenoles, etc.)",
+        "en": "Unfiltered Early Harvest AOVE, unfiltered extra virgin olive oil from an early harvest. It retains all its natural properties and sediments that give it a unique and authentic character. An exceptional oil for the most demanding palates. It has a high content of oleic acid and natural antioxidants (vitamin E, polyphenols, etc.)"
+      },
+      "short_description": {
+        "es": "Cosecha temprana sin filtrar",
+        "en": "Unfiltered early harvest"
+      },
+      "specifications": {
+        "es": {
+          "size": "500ml",
+          "origin": "Jaén, España",
+          "variety": "Picual",
+          "harvest": "Octubre - Cosecha temprana",
+          "extraction": "En frío",
+          "color": "Verde intenso con sedimentos naturales",
+          "minimum_order": "6 botellas",
+          "box_size": "12 botellas"
+        },
+        "en": {
+          "size": "500ml",
+          "origin": "Jaén, Spain",
+          "variety": "Picual",
+          "harvest": "October - Early harvest",
+          "extraction": "Cold extraction",
+          "color": "Intense green with natural sediments",
+          "minimum_order": "6 bottles",
+          "box_size": "12 bottles"
+        }
+      },
+      "features": {
+        "es": [
+          "Sin filtrar - conserva todos sus sedimentos naturales",
+          "Recolección en estado de envero óptimo",
+          "Aromas más intensos y complejos",
+          "Máximo contenido en polifenoles",
+          "Extracción en frío",
+          "Venta únicamente en pack de 12 botellas"
+        ],
+        "en": [
+          "Unfiltered - retains all its natural sediments",
+          "Harvest at optimal ripeness",
+          "More intense and complex aromas",
+          "Maximum content of polyphenols",
+          "Cold extraction",
+          "Sold only in packs of 12 bottles"
+        ]
+      },
+      "maridaje": {
+        "es": "Zumo de calidad superior, recomendado para uso doméstico, hostelería y restaurantes. Sugerimos disfrutarlo en crudo.",
+        "en": "Superior quality juice, recommended for domestic use, hospitality, and restaurants. We suggest enjoying it raw."
+      },
+      "created_at": "2024-01-10T10:00:00Z",
+      "updated_at": "2024-12-03T10:00:00Z"
+    },
+    {
+      "id": "3",
+      "slug": "aove-reserva",
+      "price": 45.00,
+      "packPrice": 135.00,
+      "stock": 90,
+      "is_active": true,
+      "type": "jug",
+      "images": [
+        {
+          "id": "img-3-1",
+          "url": "/images/FOTOBOTELLA3.webp",
+          "alt": "AOVE Reserva - Garrafa 5 litros",
+          "is_primary": true,
+          "order": 1
+        }
+      ],
+      "name": "AOVE RESERVA",
+      "description": {
+        "es": "Aove Reserva en formato garrafa de 5 litros. La recolección tiene lugar durante el mes de noviembre. Estamos ante un aceite suave, equilibrado, con una intensa personalidad y un magnífico punto de intensidad aromática. Cuenta con un alto contenido en ácido oleico y antioxidantes naturales.",
+        "en": "Reserve AOVE in a 5-liter jug format. The harvest takes place during the month of November. This is a smooth, balanced oil, with an intense personality and a magnificent point of aromatic intensity. It has a high content of oleic acid and natural antioxidants. It has a high content of oleic acid and natural antioxidants (vitamin E, polyphenols, etc.)"
+      },
+      "short_description": {
+        "es": "Reserva especial en garrafa de 5 litros",
+        "en": "Special reserve in a 5-liter jug"
+      },
+      "specifications": {
+        "es": {
+          "size": "5 litros",
+          "origin": "Jaén, España",
+          "variety": "Picual",
+          "harvest": "Noviembre - Maduración óptima",
+          "color": "Verde intenso con sedimentos naturales",
+          "minimum_order": "3 garrafas",
+          "box_size": "3 garrafas"
+        },
+        "en": {
+          "size": "5 liters",
+          "origin": "Jaén, Spain",
+          "variety": "Picual",
+          "harvest": "November - Optimal ripeness",
+          "color": "Intense green with natural sediments",
+          "minimum_order": "3 jugs",
+          "box_size": "3 jugs"
+        }
+      },
+      "features": {
+        "es": [
+          "Formato garrafa de 5 litros",
+          "Cosecha en noviembre",
+          "Perfil suave y equilibrado",
+          "Intensa personalidad aromática",
+          "Alto contenido en ácido oleico",
+          "Rica en vitamina E y polifenoles",
+          "Venta únicamente en pack de 3 garrafas"
+        ],
+        "en": [
+          "5-liter jug format",
+          "November harvest",
+          "Smooth and balanced profile",
+          "Intense aromatic personality",
+          "High content of oleic acid",
+          "Rich in vitamin E and polyphenols",
+          "Sold only in packs of 3 jugs"
+        ]
+      },
+      "maridaje": {
+        "es": "Este zumo es una excelente opción para maridar con una gran variedad de alimentos debido a que realza el sabor de los mismos. Sugerimos tanto su disfrute en crudo como en cocina.",
+        "en": "This juice is an excellent option for pairing with a wide variety of foods as it enhances their flavor. We suggest enjoying it both raw and in cooking."
+      },
+      "created_at": "2024-01-05T10:00:00Z",
+      "updated_at": "2024-12-03T10:00:00Z"
+    }
+  ]
+}

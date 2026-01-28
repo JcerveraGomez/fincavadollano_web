@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Redsys Redirect</title>
+</head>
+<body>
+    <h1>Test Redsys Redirect</h1>
+    <p>Simulando redirección de Redsys con los datos que proporcionaste:</p>
+    
+    <a href="http://localhost:5173/payment/processing?Ds_SignatureVersion=HMAC_SHA512_V2&Ds_MerchantParameters=eyJEc19EYXRlIjoiMDIlMkYwOSUyRjIwMjUiLCJEc19Ib3VyIjoiMTUlM0ExMCIsIkRzX1NlY3VyZVBheW1lbnQiOiIxIiwiRHNfQW1vdW50IjoiMjIwMCIsIkRzX0N1cnJlbmN5IjoiOTc4IiwiRHNfT3JkZXIiOiI3OTUyOTZhMS1jYzdmLTRkNDctYjllOS1jZWQ0MmU2N2I3MGIiLCJEc19BdXRvZ2VuZXJhdGVkX09yZGVyIjoiMTc5NGZjOTc4M2U0IiwiRHNfTWVyY2hhbnRDb2RlIjoiOTk5MDA4ODgxIiwiRHNfVGVybWluYWwiOiIwMDEiLCJEc19SZXNwb25zZSI6IjAwMDAiLCJEc19UcmFuc2FjdGlvblR5cGUiOiIwIiwiRHNfTWVyY2hhbnREYXRhIjoiIiwiRHNfQXV0aG9yaXNhdGlvbkNvZGUiOiIxOTAyOTEiLCJEc19DYXJkX051bWJlciI6IjQ1NDg4MSoqKioqKjAwMDMiLCJEc19Db25zdW1lckxhbmd1YWdlIjoiMSIsIkRzX0NhcmRfQ291bnRyeSI6IjcyNCIsIkRzX0NhcmRfVHlwb2xvZ3kiOiJDT05TVU1PIiwiRHNfQ2FyZF9CcmFuZCI6IjEiLCJEc19Qcm9jZXNzZWRQYXlNZXRob2QiOiI3OCIsIkRzX0VDSSI6IjA1IiwiRHNfUmVzcG9uc2VfRGVzY3JpcHRpb24iOiJPUEVSQUNJT04rQVVUT1JJWkFEQSIsIkRzX0NvbnRyb2xfMTc1NjgxODY0NDU5OCI6IjE3NTY4MTg2NDQ1OTgifQ&Ds_Signature=Imh5uISIdErF9kMjj6wqo2cAaAhwBUsr1R52E6L_Cqjaj0QiJAymAkJ4IHSyfKDQ1DWSkCOM0EOrkueEuozdhg" 
+       target="_blank" 
+       style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+        Simular redirección de Redsys
+    </a>
+    
+    <h2>Parámetros recibidos:</h2>
+    <ul>
+        <li><strong>Ds_SignatureVersion:</strong> HMAC_SHA512_V2</li>
+        <li><strong>Ds_MerchantParameters:</strong> eyJEc19EYXRlIjoiMDIlMkYwOSUyRjIwMjUiLCJEc19Ib3VyIjoiMTUlM0ExMCIsIkRzX1NlY3VyZVBheW1lbnQiOiIxIiwiRHNfQW1vdW50IjoiMjIwMCIsIkRzX0N1cnJlbmN5IjoiOTc4IiwiRHNfT3JkZXIiOiI3OTUyOTZhMS1jYzdmLTRkNDctYjllOS1jZWQ0MmU2N2I3MGIiLCJEc19BdXRvZ2VuZXJhdGVkX09yZGVyIjoiMTc5NGZjOTc4M2U0IiwiRHNfTWVyY2hhbnRDb2RlIjoiOTk5MDA4ODgxIiwiRHNfVGVybWluYWwiOiIwMDEiLCJEc19SZXNwb25zZSI6IjAwMDAiLCJEc19UcmFuc2FjdGlvblR5cGUiOiIwIiwiRHNfTWVyY2hhbnREYXRhIjoiIiwiRHNfQXV0aG9yaXNhdGlvbkNvZGUiOiIxOTAyOTEiLCJEc19DYXJkX051bWJlciI6IjQ1NDg4MSoqKioqKjAwMDMiLCJEc19Db25zdW1lckxhbmd1YWdlIjoiMSIsIkRzX0NhcmRfQ291bnRyeSI6IjcyNCIsIkRzX0NhcmRfVHlwb2xvZ3kiOiJDT05TVU1PIiwiRHNfQ2FyZF9CcmFuZCI6IjEiLCJEc19Qcm9jZXNzZWRQYXlNZXRob2QiOiI3OCIsIkRzX0VDSSI6IjA1IiwiRHNfUmVzcG9uc2VfRGVzY3JpcHRpb24iOiJPUEVSQUNJT04rQVVUT1JJWkFEQSIsIkRzX0NvbnRyb2xfMTc1NjgxODY0NDU5OCI6IjE3NTY4MTg2NDQ1OTgifQ</li>
+        <li><strong>Ds_Signature:</strong> Imh5uISIdErF9kMjj6wqo2cAaAhwBUsr1R52E6L_Cqjaj0QiJAymAkJ4IHSyfKDQ1DWSkCOM0EOrkueEuozdhg</li>
+    </ul>
+    
+    <h2>Datos decodificados del MerchantParameters:</h2>
+    <pre id="decodedData"></pre>
+    
+    <script>
+        // Decodificar los MerchantParameters para mostrar el contenido
+        const merchantParams = "eyJEc19EYXRlIjoiMDIlMkYwOSUyRjIwMjUiLCJEc19Ib3VyIjoiMTUlM0ExMCIsIkRzX1NlY3VyZVBheW1lbnQiOiIxIiwiRHNfQW1vdW50IjoiMjIwMCIsIkRzX0N1cnJlbmN5IjoiOTc4IiwiRHNfT3JkZXIiOiI3OTUyOTZhMS1jYzdmLTRkNDctYjllOS1jZWQ0MmU2N2I3MGIiLCJEc19BdXRvZ2VuZXJhdGVkX09yZGVyIjoiMTc5NGZjOTc4M2U0IiwiRHNfTWVyY2hhbnRDb2RlIjoiOTk5MDA4ODgxIiwiRHNfVGVybWluYWwiOiIwMDEiLCJEc19SZXNwb25zZSI6IjAwMDAiLCJEc19UcmFuc2FjdGlvblR5cGUiOiIwIiwiRHNfTWVyY2hhbnREYXRhIjoiIiwiRHNfQXV0aG9yaXNhdGlvbkNvZGUiOiIxOTAyOTEiLCJEc19DYXJkX051bWJlciI6IjQ1NDg4MSoqKioqKjAwMDMiLCJEc19Db25zdW1lckxhbmd1YWdlIjoiMSIsIkRzX0NhcmRfQ291bnRyeSI6IjcyNCIsIkRzX0NhcmRfVHlwb2xvZ3kiOiJDT05TVU1PIiwiRHNfQ2FyZF9CcmFuZCI6IjEiLCJEc19Qcm9jZXNzZWRQYXlNZXRob2QiOiI3OCIsIkRzX0VDSSI6IjA1IiwiRHNfUmVzcG9uc2VfRGVzY3JpcHRpb24iOiJPUEVSQUNJT04rQVVUT1JJWkFEQSIsIkRzX0NvbnRyb2xfMTc1NjgxODY0NDU5OCI6IjE3NTY4MTg2NDQ1OTgifQ";
+        
+        try {
+            const decoded = atob(merchantParams);
+            const parsed = JSON.parse(decoded);
+            document.getElementById('decodedData').textContent = JSON.stringify(parsed, null, 2);
+        } catch (e) {
+            document.getElementById('decodedData').textContent = 'Error decodificando: ' + e.message;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* Mollani Font by Alit Design */
+/* Download from: https://www.dafont.com/mollani.font */
+
+@font-face {
+  font-family: 'Mollani';
+  src: url('./Mollani-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-mollani {
+  font-family: 'Mollani', cursive;
+}
